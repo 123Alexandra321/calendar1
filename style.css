@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.calendar-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 420px;
+  text-align: center;
+}
+
+.zile, #zile-luna {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 10px;
+}
+
+.zile div {
+  font-weight: bold;
+  padding: 10px 0;
+  background: #e0e0e0;
+}
+
+#zile-luna div {
+  padding: 12px 0;
+  border: 1px solid #ddd;
+}
+
+.azi {
+  background: #00bcd4;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
